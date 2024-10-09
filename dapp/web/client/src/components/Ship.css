@@ -1,0 +1,112 @@
+.shipBackground {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shipContainer {
+  width: 700px;
+  height: auto;
+  border-radius: 12px;
+  background-color: #ffd700; /* Gold color */
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35); /* Soft shadow */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.shipContainer .heading {
+  font-size: 30px;
+  font-weight: 800;
+  font-style: italic;
+  padding: 20px;
+  margin-top: 20px;
+  color: #8a2be2; /* Blue Violet color */
+}
+
+.shipContainer .ship {
+  font-size: large;
+  font-weight: 700;
+  font-family: Arial, sans-serif; /* Changed font family */
+  color: #8a2be2; /* Blue Violet color */
+  margin: 10px;
+  margin-bottom: 15px;
+}
+
+.shipContainer .body {
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.6rem; /* Decreased font size */
+  text-align: center;
+}
+
+.shipContainer .body input,
+.shipContainer .body select {
+  padding: 8px; /* Increased padding */
+  background-color: #d3d3d3; /* Light grey background color */
+  margin: 3px;
+  color: #8b4513; /* Saddle Brown color */
+  border-radius: 5px;
+}
+
+.shipContainer .body p {
+  padding: 8px; /* Increased padding */
+  margin: 8px;
+}
+
+.shipContainer .body button {
+  padding: 10px; /* Increased padding */
+  width: 120px; /* Increased button width */
+  height: 40px; /* Increased button height */
+  margin: 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: #4169e1; /* Royal Blue color */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.shipContainer .footer {
+  flex: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shipContainer .footer button {
+  width: 120px; /* Increased button width */
+  height: 40px; /* Increased button height */
+  margin: 10px;
+  margin-bottom: 50px;
+  border: none;
+  background-color: #4169e1; /* Royal Blue color */
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#cancelBtn {
+  background-color: crimson;
+}
+
+.address {
+  display: block;
+  margin: auto;
+  height: 30px;
+  width: 330px;
+  text-align: center;
+}
+
+input[type="text"]:focus {
+  background-color: lightblue;
+}

@@ -1,0 +1,104 @@
+.checkBackground {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6); /* Darker semi-transparent background */
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkContainer {
+  width: 700px;
+  height: auto;
+  border-radius: 12px;
+  background-color: #f0f0f0; /* Light gray background */
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Soft shadow */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px; /* Increased padding */
+}
+
+.checkContainer .heading {
+  font-size: 30px;
+  font-weight: bold; /* Changed font weight */
+  font-style: italic; /* Changed font style */
+  padding: 20px;
+  margin-top: 20px;
+  color: #333; /* Dark gray text color */
+}
+
+.checkContainer .check {
+  font-size: large;
+  font-weight: 700;
+  font-family: Arial, sans-serif; /* Changed font family */
+  color: #4b0082; /* Indigo color */
+  margin: 15px;
+}
+
+.checkContainer .body {
+  flex: 50%;
+  display: flex;
+  margin: 10px; /* Adjusted margin */
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.6rem; /* Decreased font size */
+  text-align: center;
+}
+
+.checkContainer .body input {
+  padding: 8px; /* Increased padding */
+  color: #8b4513; /* Saddle Brown color */
+  margin: 5px;
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.checkContainer .body .check-details p {
+  font-size: medium;
+  padding: 10px;
+  margin: 10px;
+  color: #000080; /* Navy Blue color */
+}
+
+.checkContainer .body button {
+  padding: 8px;
+  width: 120px; /* Increased button width */
+  height: 40px; /* Increased button height */
+  margin: 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: #4682b4; /* Steel Blue color */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.checkContainer .footer {
+  flex: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkContainer .footer button {
+  width: 120px;
+  height: 40px;
+  margin: 10px;
+  border: none;
+  background-color: #4682b4; /* Steel Blue color */
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#cancelBtn {
+  background-color: #dc143c; /* Crimson color */
+}
+
+input[type="text"]:focus {
+  background-color: #add8e6; /* Light Blue color */
+}

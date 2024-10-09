@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: url(Retina_Display.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container .title {
+  font-size: 40px;
+  margin-top: 50px;
+  color: #333; /* Dark gray text color */
+  font-weight: 800;
+  font-style: italic;
+  padding: 20px;
+  background-color: #f0f8ff; /* Light blue background color */
+}
+
+.container .homePage form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.button-86 {
+  padding: 15px;
+  margin: 20px;
+  width: 200px;
+  background-color: #4b0082; /* Indigo color */
+  border-radius: 10px;
+  color: #8b0000; /* Dark red text color */
+  font-size: large;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+}
+
+.button-86:hover {
+  background-color: #faebd7; /* Antique White color */
+}
